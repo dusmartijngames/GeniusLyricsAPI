@@ -1,4 +1,6 @@
-[![](https://jitpack.io/v/LowLevelSubmarine/GeniusLyricsAPI.svg)](https://jitpack.io/#LowLevelSubmarine/GeniusLyricsAPI)
+[![](https://jitpack.io/v/dusmartijngames/GeniusLyricsAPI.svg)](https://jitpack.io/#dusmartijngames/GeniusLyricsAPI)
+
+# [Original repo by LowLevelSubmarine.](https://github.com/LowLevelSubmarine/GeniusLyricsAPI/) 
 
 # Genius Lyrics API (not-official)
 This API is made to search and parse lyrics from the web. The Genius library should provide all the songs your users will ever search for. It uses genius's embed page to load lyrics without getting rate-limited, and caches every parsed lyrics and search results (runtime).
@@ -11,7 +13,7 @@ Just create a new *GLA* object and start with the *search(String)* method ;)
 **Gradle**
 ```gradle
 dependencies {
-   implementation 'com.github.LowLevelSubmarine:GeniusLyricsAPI:1.0.3'
+   implementation 'com.github.dusmartijngames:GeniusLyricsAPI:1.0.0'
 }
 
 repositories {
@@ -22,9 +24,9 @@ repositories {
 **Maven**
 ```xml
 <dependency>
-    <groupId>com.github.LowLevelSubmarine</groupId>
+    <groupId>com.github.dusmartijngames</groupId>
     <artifactId>GeniusLyricsAPI</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.0</version>
 </dependency>
 ```
 ```xml
