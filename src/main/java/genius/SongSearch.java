@@ -1,14 +1,11 @@
 package genius;
 
-import com.sun.jndi.toolkit.url.Uri;
 import core.GLA;
-import jdk.nashorn.internal.runtime.regexp.joni.exception.SyntaxException;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.io.IOException;
 import java.net.*;
-import java.nio.charset.StandardCharsets;
 import java.util.LinkedList;
 
 public class SongSearch {
